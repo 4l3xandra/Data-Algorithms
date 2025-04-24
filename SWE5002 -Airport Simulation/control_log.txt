@@ -1,0 +1,33 @@
+Flight 636 requests landing
+[Queue Status] Emergency: 0 | Landings: 1 | Takeoffs: 0
+Flight 740 requests emergency landing
+[Queue Status] Emergency: 1 | Landings: 1 | Takeoffs: 0
+Flight 120 requests emergency landing
+[Queue Status] Emergency: 2 | Landings: 1 | Takeoffs: 0
+Flight 068 requests landing
+[Queue Status] Emergency: 2 | Landings: 2 | Takeoffs: 0
+Flight 827 requests landing
+[Queue Status] Emergency: 2 | Landings: 3 | Takeoffs: 0
+Flight 939 requests takeoff
+[Queue Status] Emergency: 2 | Landings: 3 | Takeoffs: 1
+Flight 100 requests emergency landing
+[Queue Status] Emergency: 3 | Landings: 3 | Takeoffs: 1
+Flight 502 requests takeoff
+[Queue Status] Emergency: 3 | Landings: 3 | Takeoffs: 2
+Flight 933 requests takeoff
+[Queue Status] Emergency: 3 | Landings: 3 | Takeoffs: 3
+Flight 351 requests takeoff
+[Queue Status] Emergency: 3 | Landings: 3 | Takeoffs: 4
+
+CONTROL: Processing flights
+
+CONTROL: 740 land
+CONTROL: 120 land
+CONTROL: 100 land
+CONTROL: 636 land
+CONTROL: 068 land
+CONTROL: 827 land
+CONTROL: 939 takeoff
+CONTROL: 502 takeoff
+CONTROL: 933 takeoff
+CONTROL: 351 takeoff
