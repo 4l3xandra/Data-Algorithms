@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b044616bdeb18f28b3f4858c0c9feb74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b044616bdeb18f28b3f4858c0c9feb74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b044616bdeb18f28b3f4858c0c9feb74 = L.map(
+                "map_b044616bdeb18f28b3f4858c0c9feb74",
+                {
+                    center: [1.3975350177934123, 103.74740511413793],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3086b43bb8848b38e2dbc309ebaa54b6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3086b43bb8848b38e2dbc309ebaa54b6.addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            var poly_line_5e397e1c0f843865e6c2565e6d09c44c = L.polyline(
+                [[1.3975350177934123, 103.74740511413793], [1.4251776987704483, 103.76216541090021], [1.4325144206356422, 103.77407146126207], [1.4368751282107552, 103.78648513490744], [1.4368751282107552, 103.78648513490744], [1.4272599787112468, 103.79385089243779], [1.3981608610259548, 103.81808184986265], [1.3850619469262857, 103.83646948691421], [1.3720866386742012, 103.83682393201485], [1.3633080980958083, 103.8329359578363], [1.3544118531277336, 103.83293816886057], [1.3376745080443386, 103.83952982076379], [1.3200655570067297, 103.82602440224379], [1.3039810124368771, 103.83224145206746], [1.2764273547506024, 103.85459777754325], [1.2764273547506024, 103.85459777754325], [1.2818737884915377, 103.8590797651323], [1.2818737884915377, 103.8590797651323], [1.2932180514893272, 103.86099915588701]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            var marker_1d3b8592e6d4946db30f255a9e53f7aa = L.marker(
+                [1.3975350177934123, 103.74740511413793],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_1d3b8592e6d4946db30f255a9e53f7aa.bindTooltip(
+                `<div>
+                     YEW TEE (NS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_876df8772ea055c1950260815a3cdde0 = L.marker(
+                [1.4251776987704483, 103.76216541090021],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_876df8772ea055c1950260815a3cdde0.bindTooltip(
+                `<div>
+                     KRANJI (NS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_79f446176fc9a174aa671d53e83abe53 = L.marker(
+                [1.4325144206356422, 103.77407146126207],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_79f446176fc9a174aa671d53e83abe53.bindTooltip(
+                `<div>
+                     MARSILING (NS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_61fe0062aea0e2187f16c894987935c5 = L.marker(
+                [1.4368751282107552, 103.78648513490744],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_61fe0062aea0e2187f16c894987935c5.bindTooltip(
+                `<div>
+                     WOODLANDS (NS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_88297044c741ac543294bce87525b873 = L.marker(
+                [1.4368751282107552, 103.78648513490744],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_88297044c741ac543294bce87525b873.bindTooltip(
+                `<div>
+                     WOODLANDS (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d91c9786aab85c583f9c7918f6018284 = L.marker(
+                [1.4272599787112468, 103.79385089243779],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_d91c9786aab85c583f9c7918f6018284.bindTooltip(
+                `<div>
+                     WOODLANDS SOUTH (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7bcfa522b146194e3fb06fea6ebb8f02 = L.marker(
+                [1.3981608610259548, 103.81808184986265],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_7bcfa522b146194e3fb06fea6ebb8f02.bindTooltip(
+                `<div>
+                     SPRINGLEAF (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1857862d9d3c1185185d4cb795950393 = L.marker(
+                [1.3850619469262857, 103.83646948691421],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_1857862d9d3c1185185d4cb795950393.bindTooltip(
+                `<div>
+                     LENTOR (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b5b9fc25c74af91acaae0370eacf1cf = L.marker(
+                [1.3720866386742012, 103.83682393201485],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_7b5b9fc25c74af91acaae0370eacf1cf.bindTooltip(
+                `<div>
+                     MAYFLOWER (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5a93d6f8d6381d8d45629195e25f1c2 = L.marker(
+                [1.3633080980958083, 103.8329359578363],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_d5a93d6f8d6381d8d45629195e25f1c2.bindTooltip(
+                `<div>
+                     BRIGHT HILL (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1fed7bbf876fa071a1e600c1e4b88a82 = L.marker(
+                [1.3544118531277336, 103.83293816886057],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_1fed7bbf876fa071a1e600c1e4b88a82.bindTooltip(
+                `<div>
+                     UPPER THOMSON (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_66ed397a68293ad40e2b3674832eb90a = L.marker(
+                [1.3376745080443386, 103.83952982076379],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_66ed397a68293ad40e2b3674832eb90a.bindTooltip(
+                `<div>
+                     CALDECOTT (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ca70f25111de2802e5a32f13f602e90b = L.marker(
+                [1.3200655570067297, 103.82602440224379],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_ca70f25111de2802e5a32f13f602e90b.bindTooltip(
+                `<div>
+                     STEVENS (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b3ae5254817435654eed55972194c3d = L.marker(
+                [1.3039810124368771, 103.83224145206746],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_4b3ae5254817435654eed55972194c3d.bindTooltip(
+                `<div>
+                     ORCHARD (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b89ddf9ff96782a747646de80f32e26 = L.marker(
+                [1.2764273547506024, 103.85459777754325],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_7b89ddf9ff96782a747646de80f32e26.bindTooltip(
+                `<div>
+                     MARINA BAY (TE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fca4a63cde33f46c41922e64d55e3c8c = L.marker(
+                [1.2764273547506024, 103.85459777754325],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_fca4a63cde33f46c41922e64d55e3c8c.bindTooltip(
+                `<div>
+                     MARINA BAY (CE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_56f4eefafb2b9853e356bd3121474760 = L.marker(
+                [1.2818737884915377, 103.8590797651323],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_56f4eefafb2b9853e356bd3121474760.bindTooltip(
+                `<div>
+                     BAYFRONT (CE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c835a00821cf1d1c5e0d793dd3fb26d3 = L.marker(
+                [1.2818737884915377, 103.8590797651323],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_c835a00821cf1d1c5e0d793dd3fb26d3.bindTooltip(
+                `<div>
+                     BAYFRONT (DT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bfd4aca469f39f17b5f807f8db525a36 = L.marker(
+                [1.2932180514893272, 103.86099915588701],
+                {
+}
+            ).addTo(map_b044616bdeb18f28b3f4858c0c9feb74);
+        
+    
+            marker_bfd4aca469f39f17b5f807f8db525a36.bindTooltip(
+                `<div>
+                     PROMENADE (DT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
